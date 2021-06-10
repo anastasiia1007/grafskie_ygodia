@@ -1,0 +1,171 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Отсупы для всего документа =0 */
+body {
+    margin: 0;
+}
+
+/* Headers styles */
+#header {
+    width: 1000px;
+    height: 396px;
+    background-image: url("../img/slaider1.gif");
+    /* Выравниваем div по центру */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header_podlozka {
+    width: 1000px;
+    height: 50px;
+    background-color: #181917;
+}
+
+#logo {
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+/* Menu styles */
+ul#menu li {
+    display: inline;
+    list-style: none;
+    color: #FFF;
+    font-size: 14px;
+    font-family: "Times New Roman", Times, serif;
+    margin-right: 80px
+}
+
+ul#menu {
+    width: 600px;
+    margin-left: 200px;
+    display: inline-block;
+    vertical-align: top
+}
+
+/* Conteiner styles */
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
+/* Black Square #block1*/
+
+#chernyi_kvadrat {
+    width: 1000px;
+    height: 208px;
+    background: #181917 no-repeat;
+    padding-top: 0;
+}
+
+#txt {
+    color: #FFF;
+    font-size: 1.3rem;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 20px;
+    width: 1000px;
+    margin-top: 0;
+}
+
+/* Стили для баннеров*/
+
+.banner {
+    height: 207px;
+    width: 1000px;
+    margin: 0;
+
+}
+
+
+.podloozka {
+    background:rgba(153,153,153,0.6); 
+    height: 180px;
+    width: 918px;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    position: absolute;
+}
+
+#kvadrat1 {
+
+    background-image: url(../img/room3.gif)
+}
+
+#kvadrat2 {
+
+    background-image: url(../img/gosti.gif)
+}
+
+#kvadrat3 {
+
+    background-image: url(../img/kyxnya.gif)
+}
+
+#title {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-left: 50px;
+    padding-top: 80px;
+    color: #fff;
+}
+
+#podlozka_footer {
+    width: 1000px;
+    height: 338px;
+    background-color: #181917;
+}
+#kolonka {
+	margin-left:26px;
+	width:160px;
+	display:inline-block;
+}
+
+#buttons {
+    list-style: none;
+    color: #FFFFFF;
+    float: left;}
+	
+	
+#kolonka2{
+margin-left:150px;
+width:160px;
+	display:inline-block;}
+	
+	
+#buttons2 {
+    list-style: none;
+    color: #FFFFFF;
+    float: left;}
+
+#kolonka3
+{margin-left:150px;
+width:160px;
+display:inline-block;}
+	
+
+#buttons3 {
+    list-style: none;
+    color: #FFFFFF;
+    float: left;
+margin-left:20px;
+}
+
+#socseti {
+margin:auto;
+ letter-spacing:normal;
+}
+
+
+#copyrights{
+	list-style-none;
+	color:#FFFFFF;
+}
+		#up{
+		margin-right:15px;}
